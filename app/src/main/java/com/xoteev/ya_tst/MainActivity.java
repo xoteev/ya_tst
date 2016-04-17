@@ -41,6 +41,26 @@ public class MainActivity extends AppCompatActivity {
         assert list != null;
         list.setAdapter(mAdapter);
         list.setClickable(true);
+
+        //установим обработчик
+        list.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> listView, View itemView, int index, long id) {
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                //запомним данные нужные для второй активити
+                intent.putExtra("Title", lineElements[index].Title);
+                intent.putExtra("ImageBig", lineElements[index].ImageUrlBig);
+                intent.putExtra("Style_about", lineElements[index].Style);
+                intent.putExtra("CountAlbums", lineElements[index].CountAlbums);
+                intent.putExtra("CountSongs", lineElements[index].CountSongs);
+                intent.putExtra("About", lineElements[index].Description);
+                //адрес  хоть и не используем, но все же запомним
+                intent.putExtra("Link", lineElements[index].Link);
+
+                //запускаем активити
+                startActivity(intent);
+            }
+        });
     }
 
     void examineJSONFile()
