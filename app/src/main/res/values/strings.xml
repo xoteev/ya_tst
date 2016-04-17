@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Ya_tst</string>
+    <string name="title_activity_main">Исполнители</string>
+    <string name="title">Title</string>
+    <string name="style">Style</string>
+    <string name="countSongs">CountSong</string>
+    <string name="bio">Биография</string>
+    <string name="imageSmall">imageSmall</string>
+    <string name="imageBig">imageBig</string>
 </resources>

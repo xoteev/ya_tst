@@ -4,4 +4,5 @@
     android:layout_height="@dimen/action_bar_height"
     android:layout_width="match_parent"
     android:minHeight="?attr/actionBarSize"
-    android:background="?attr/colorPrimary" />
+    android:background="?attr/colorPrimary"
+    android:id="@+id/toolbar" />
