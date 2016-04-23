@@ -9,7 +9,7 @@
         <item name="android:textColorPrimary">@color/colorAccent</item>
         <item name="android:scrollbarSize">@dimen/scrollbarSize</item>
     </style>
-    <!--так как тема Light перекрасим цвет иконки-->
+
     <style name="TbColorBackArrow" parent="AppTheme">
         <item name="android:textColorSecondary">@color/colorAccent</item>
     </style>

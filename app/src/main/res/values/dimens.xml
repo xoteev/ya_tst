@@ -1,5 +1,8 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="action_bar_height">60dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_height">57dp</dimen>
     <dimen name="scrollbarSize">5dp</dimen>
+
 </resources>

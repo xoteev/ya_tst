@@ -66,7 +66,8 @@ public class Adapter extends BaseAdapter {
         final ImageView ivSmall = (ImageView) view.findViewById(R.id.ivImageSmall);
         Picasso.with(mContext)
                 .load(LineElement.ImageUrlSmall)
-                .error(R.drawable.ic_sentiment_very_dissatisfied_black_48dp)
+                .placeholder(R.drawable.ic_download_cover)
+                .error(R.drawable.ic_download_error)
                 .into(ivSmall);
 
         return view;

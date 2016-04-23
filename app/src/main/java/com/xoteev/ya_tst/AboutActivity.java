@@ -37,9 +37,9 @@ public class AboutActivity extends AppCompatActivity {
 
         Picasso.with(this)
                 .load(intent.getStringExtra("ImageBig"))
-                .error(R.drawable.ic_sentiment_very_dissatisfied_black_48dp)
+                .placeholder(R.drawable.ic_download_cover)
+                .error(R.drawable.ic_download_error)
                 .into(ivBig);
-
 
         final TextView tvStyleAbout = (TextView) findViewById(R.id.tvStyle_about);
         assert tvStyleAbout != null;

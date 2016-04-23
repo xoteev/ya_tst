@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Ya_tst</string>
-    <string name="title_activity_main">Исполнители</string>
+    <string name="app_name">YandexTest</string>
+    <string name="title_main_activity">Исполнители</string>
+    <string name="about_title">About</string>
     <string name="title">Title</string>
     <string name="style">Style</string>
-    <string name="countSongs">CountSong</string>
+    <string name="count_song">CountSong</string>
+    <string name="style_about">style_about</string>
     <string name="bio">Биография</string>
     <string name="imageSmall">imageSmall</string>
     <string name="imageBig">imageBig</string>
+
 </resources>
